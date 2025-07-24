@@ -10,7 +10,7 @@ class FooterTest(unittest.TestCase):
         # Запуск браузера Chrome
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
         self.driver.maximize_window()
-        # Замените URL на адрес вашего сайта
+       
         self.driver.get("https://only.digital/")
 
     def test_footer_elements(self):
